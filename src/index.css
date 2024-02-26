@@ -134,9 +134,9 @@ header nav ul li a {
   margin-top: 90px;
   height: 600px;
   background-color: red;
-  background-image: url("/key_visual_millionpainter.png"); /* The image used */
+  /* background-image: url("/key_visual_millionpainter.png"); */ /* The image used */
   /* background-position: center; /* Center the image */
-  background-image: url("public/key_visual_faust_03.png"); /*  The image used */
+  background-image: url("/key_visual_faust_03.png"); /*  The image used */
   background-position: calc(50% - 35px) center; /* Adjust the horizontal position */
   background-repeat: no-repeat;
   background-size: cover;
