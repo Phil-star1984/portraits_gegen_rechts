@@ -78,12 +78,15 @@ function App() {
         <p>
           Du kannst innerhalb von wenigen Sekunden teilnehmen. Schicke ein Foto
           von der Person, die gezeichnet werden soll, sowie den Vor- und
-          Nachnamen an info@phil-splash.de. Daraufhin zeichnet der Künstler das
-          Portrait, und es wird am Tag der Vernissage im Rathaus Würzburg
-          ausgestellt. Die Teilnahme bei der Aktion ist kostenlos; wer möchte,
-          kann das Portrait auch direkt nach der Ausstellung kaufen. Starte
-          jetzt! Lass von dir oder einer geliebten Person ein Portrait
-          anfertigen und setze ein Symbol für die Vielfalt und gegen Rechts.
+          Nachnamen an info@phil-splash.de oder klicke unten auf den Button.
+        </p>
+        <p>
+          Daraufhin zeichnet der Künstler das Portrait, und es wird am Tag der
+          Vernissage im Rathaus Würzburg ausgestellt. Die Teilnahme bei der
+          Aktion ist kostenlos; wer möchte, kann das Portrait auch direkt nach
+          der Ausstellung kaufen. Starte jetzt! Lass von dir oder einer
+          geliebten Person ein Portrait anfertigen und setze ein Symbol für die
+          Vielfalt und gegen Rechts.
         </p>
         <button onClick={handleClick}>Portraitvorlage hier senden</button>
       </section>

@@ -204,6 +204,7 @@ h2 {
 
 #mitmachen {
   padding: 40px 20%;
+  padding-bottom: 0;
   background-color: red;
 }
 
@@ -368,6 +369,7 @@ footer {
 
   #mitmachen {
     padding: 40px 10%;
+    padding-bottom: 0;
   }
 
   .split-section {
