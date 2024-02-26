@@ -58,14 +58,19 @@ function App() {
         <h2>Die Aktion „Portraits gegen Rechts“</h2>
         <p>
           Portraits gegen Rechts ist eine Kunstaktion, die sich aktiv gegen jede
-          Form von Fremdenfeindlichkeit und Rechtsextremismus wendet. <br />
-          Für die Aktion sollen vom 01.03. - 05.04.2024 von den Einwohnern
-          Würzburgs Portraits entstehen, die bei der Aktion mitmachen möchten.
-          Die entstandenen Portraits werden bei einer Vernissage im Würzburger
-          Rathaus ab dem 04.04.2024 einen Monat lang ausgestellt als Zeichen des
-          Widerstands gegen Rechts. Nach der Vernissage können die Portraits
-          gekauft werden.
+          Form von Fremdenfeindlichkeit und Rechtsextremismus wendet.
         </p>
+        <p>
+          Für die Aktion sollen vom 01.03. - 04.04.2024 von den Einwohnern
+          Würzburgs und Umgebung Portraitzeichnungen entstehen, die bei der
+          Aktion mitmachen möchten. Die entstandenen Portraits werden bei einer
+          Vernissage im Würzburger Rathaus ab dem 04.04.2024 einen Monat lang
+          ausgestellt als Zeichen des Widerstands gegen Rechts.
+        </p>
+      </section>
+
+      <section id="sketching-visual">
+        <div id="sketching-container">{/* <h1>PHIL SKETCHING</h1> */}</div>
       </section>
 
       <section id="mitmachen">
@@ -102,18 +107,46 @@ function App() {
           Ausstellung ist ab dem 04.04.24 bis zum 29.04.24 zu den regulären
           Öffnungszeiten des Rathauses zu besuchen (Mo-Fr zwischen 9-17 Uhr).
         </p>
+        <div id="timings">
+          <h2>Timings</h2>
+          <h2>Zeichenaktion (online) | 01.03. - 31.04.2024</h2>
+          <h2>Vernissage Foyer Rathaus Würzburg | 04.04.2024 </h2>
+          <h2>Permanente Ausstellung | 04.04. - 29.04.2024</h2>
+        </div>
       </section>
       <section id="kuenstler">
         <h2>Der Künstler</h2>
         <p>
-          Phil Splash ist Web Developer, Art Director und Künstler. 2015 bekam
-          er von der Presse den Titel „Der Millionen Maler“. Seit er 2010 damit
-          begonnen hat, Portraits von Menschen in der U-Bahn zu zeichnen, ist es
-          sein Lebensziel, 1 Million Menschen zu portraitieren. Er hat bereits
-          über 300.000 Portraits gezeichnet und Aktionen für Weltmarken wie
-          Calvin Klein, Lavazza und MacCosmetics gestaltet. Über seine Aktionen
-          wurde landesweit in der Presse berichtet (RTL, ZDF, Süddeutsche
+          Phil Splash ist Web Developer, Senior Art Director und Künstler. 2015
+          hat er von der Presse den Titel „Der Millionen Maler“ erhalten. Seit
+          er 2010 damit begonnen hat, Portraits von Menschen in der U-Bahn zu
+          zeichnen, ist es sein Lebensziel, 1 Million Menschen zu portraitieren.
+          Er hat bereits über 300.000 Portraits gezeichnet und Aktionen für
+          Weltmarken wie Calvin Klein, Lavazza und MacCosmetics gestaltet. Über
+          seine Aktionen wurde landesweit berichtet (RTL, ZDF, Süddeutsche
           Zeitung, BILD).
+        </p>
+        <p>
+          Link zur Künstler Website:{" "}
+          <a href="http://www.phil-splash.de/" target="_blank">
+            Phil-Splash.de
+          </a>
+        </p>
+        <p>
+          Link zur Marketing Website des Künstlers:{" "}
+          <a href="http://www.phil-splash.de/" target="_blank">
+            Millionpainter.de
+          </a>
+        </p>
+
+        <p>
+          Link zum YouTube Channel des Künstlers:{" "}
+          <a
+            href="https://www.youtube.com/@Theartistphil/videos"
+            target="_blank"
+          >
+            YouTube Millionpainter
+          </a>
         </p>
       </section>
       <section id="impressionen">
@@ -124,46 +157,57 @@ function App() {
           <figure className="gallery__item gallery__item--1">
             <img
               src="https://res.cloudinary.com/hzwebux5t/image/upload/v1573164242/uvncyxayeu1fyek7btfy.jpg"
-              class="gallery__img"
+              className="gallery__img"
               alt="Image 1"
             />
           </figure>
           <figure className="gallery__item gallery__item--2">
             <img
               src="https://www.wuerzburgerleben.de/wp-content/uploads/sites/10/2020/01/Phil-Splash_Zeichnung_Bar.jpg"
-              class="gallery__img"
+              className="gallery__img"
               alt="Image 2"
             />
           </figure>
           <figure className="gallery__item gallery__item--3">
             <img
               src="https://res.cloudinary.com/hzwebux5t/image/upload/c_fill,dpr_2.0,f_auto,g_auto,h_360,w_500/v1635189404/fgejp6iayeqfhlsi7mu0.jpg"
-              class="gallery__img"
+              className="gallery__img"
               alt="Image 3"
             />
           </figure>
           <figure className="gallery__item gallery__item--4">
             <img
               src="https://www.wuerzburgerleben.de/wp-content/uploads/sites/10/2020/01/Collage_Phil-Splash.jpg"
-              class="gallery__img"
+              className="gallery__img"
               alt="Image 4"
             />
           </figure>
           <figure className="gallery__item gallery__item--5">
             <img
               src="https://www.wuerzburgerleben.de/wp-content/uploads/sites/10/2020/01/TheMillionPainter_Stachuspassagen_Muenchen.jpg"
-              class="gallery__img"
+              className="gallery__img"
               alt="Image 5"
             />
           </figure>
           <figure className="gallery__item gallery__item--6">
             <img
               src="https://www.wuerzburgerleben.de/wp-content/uploads/sites/10/2020/01/Phil-Splash_Malen_U-Bahn_Muenchen.jpg"
-              class="gallery__img"
+              className="gallery__img"
               alt="Image 6"
             />
           </figure>
         </section>
+      </section>
+      <section id="hinweis">
+        <h2>Hinweis</h2>
+        <p>
+          Der Künstler behält sich das Recht vor ungeeignete Bilder und Bilder
+          die gegen den Sinn der Aktion verstoßen von der Portraitaktion
+          auszuschließen bzw. ohne Angabe von Gründen auszusortieren und die
+          Anzahl der Portraits auf ein geeignetes Maß für die Vernissage zu
+          reduzieren. Für unerlaubte oder unrechtmäßige Einsendungen von
+          Bildmaterial erfolgt keine Haftung von Seiten des Künstlers.
+        </p>
       </section>
       <section id="impressum">
         <h1>Impressum</h1>
