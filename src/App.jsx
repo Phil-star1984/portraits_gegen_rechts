@@ -96,7 +96,7 @@ function App() {
             zu einem individuellen Symbol für Toleranz und Vielfalt werden.
           </p>
         </section>
-        <div id="portraits-example"></div>
+        {/* <div id="portraits-example"></div> */}
       </div>
       <section id="portraitvorschau"></section>
       <section id="vernissage">
@@ -146,6 +146,21 @@ function App() {
             target="_blank"
           >
             YouTube Millionpainter
+          </a>
+        </p>
+        <p>
+          Link zum Instagram Profil des Künstlers:{" "}
+          <a
+            href="https://www.instagram.com/the_million_painter/"
+            target="_blank"
+          >
+            Instagram Millionpainter
+          </a>
+        </p>
+        <p>
+          Link zum Facebook Profil des Künstlers:{" "}
+          <a href="https://www.facebook.com/philsplash/" target="_blank">
+            Facebook Millionpainter
           </a>
         </p>
       </section>

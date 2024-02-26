@@ -208,20 +208,20 @@ h2 {
 }
 
 .split-section {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
   background-color: red;
   padding: 0 20%;
 }
 
 #portraits {
-  width: 49%;
-  min-width: 300px;
+  /* width: 49%;
+  min-width: 300px; */
   padding-top: 40px;
   padding-bottom: 40px;
 }
 #portraits-example {
-  width: 49%;
+  /* width: 49%; */
   height: 400px;
   /*   min-width: 300px;
   min-height: 300px; */
@@ -334,4 +334,78 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 0;
+}
+
+@media screen and (max-width: 450px) {
+  /* Bei jedem größeren Monitor kommen neue Regeln hinzu */
+  #title h1 {
+    line-height: 2.1rem;
+  }
+
+  #keyvisual-container h1 {
+    font-size: 4rem;
+  }
+
+  #key-visual {
+    padding: 0 10%;
+    height: 540px;
+  }
+
+  #aktion {
+    padding: 40px 10%;
+  }
+
+  #aktion p {
+    font-size: 1.2rem;
+  }
+
+  #sketching-container {
+    height: 250px;
+    text-align: center;
+
+    padding: 0 10%;
+  }
+
+  #mitmachen {
+    padding: 40px 10%;
+  }
+
+  .split-section {
+    padding: 0 10%;
+  }
+
+  #portraits {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #portraitvorschau {
+    height: 400px;
+    padding: 0 20%;
+    background-image: url("/public/millionpainter_pgr_portraits.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #vernissage {
+    padding: 40px 10%;
+  }
+
+  #timings {
+    /* background-color: black; */
+    /* background-color: rgba(0, 0, 0, 0.4); */
+  }
+
+  #kuenstler {
+    padding: 40px 10%;
+  }
+
+  #hinweis {
+    padding: 40px 10%;
+  }
+
+  #impressum {
+    padding: 40px 10%;
+  }
 }
