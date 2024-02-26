@@ -61,11 +61,10 @@ function App() {
           Form von Fremdenfeindlichkeit und Rechtsextremismus wendet.
         </p>
         <p>
-          Für die Aktion sollen vom 01.03. - 04.04.2024 von den Einwohnern
-          Würzburgs und Umgebung Portraitzeichnungen entstehen, die bei der
-          Aktion mitmachen möchten. Die entstandenen Portraits werden bei einer
-          Vernissage im Würzburger Rathaus ab dem 04.04.2024 einen Monat lang
-          ausgestellt als Zeichen des Widerstands gegen Rechts.
+          Für die Aktion sollen von den Einwohnern Würzburgs und Umgebung
+          Portraitzeichnungen entstehen. Die entstandenen Portraits werden bei
+          einer Vernissage im Würzburger Rathaus einen Monat lang ausgestellt
+          als Zeichen des Widerstands gegen Rechts.
         </p>
       </section>
 
@@ -96,7 +95,9 @@ function App() {
           <p>
             Das Einzigartige an den Portraits ist, dass sie auf Paragraph 1 des
             Deutschen Grundgesetzes als Hintergrund gezeichnet werden und somit
-            zu einem individuellen Symbol für Toleranz und Vielfalt werden.
+            zu einem individuellen Symbol für Toleranz und Vielfalt werden. Das
+            Format beträgt A3 (297 x 420 mm), wodurch die Portraits problemlos
+            in der Wohnung aufgehängt werden können.
           </p>
         </section>
         {/* <div id="portraits-example"></div> */}
@@ -111,7 +112,7 @@ function App() {
           Öffnungszeiten des Rathauses zu besuchen (Mo-Fr zwischen 9-17 Uhr).
         </p>
         <div id="timings">
-          <h2>Timings</h2>
+          <h2 id="timings-wort">Timings</h2>
           <h2>Zeichenaktion (online) | 01.03. - 31.04.2024</h2>
           <h2>Vernissage Foyer Rathaus Würzburg | 04.04.2024 </h2>
           <h2>Permanente Ausstellung | 04.04. - 29.04.2024</h2>
