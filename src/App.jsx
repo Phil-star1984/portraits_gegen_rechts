@@ -97,7 +97,7 @@ function App() {
             Deutschen Grundgesetzes als Hintergrund gezeichnet werden und somit
             zu einem individuellen Symbol für Toleranz und Vielfalt werden. Das
             Format beträgt A3 (297 x 420 mm), wodurch die Portraits problemlos
-            in der Wohnung aufgehängt werden können.
+            aufgehängt werden können.
           </p>
         </section>
         {/* <div id="portraits-example"></div> */}
@@ -109,7 +109,7 @@ function App() {
           Die Portraits werden gesammelt im Foyer des Rathauses Würzburg
           gezeigt. Die Vernissage ist am Donnerstag, den 04.04.2024. Die
           Ausstellung ist ab dem 04.04.24 bis zum 29.04.24 zu den regulären
-          Öffnungszeiten des Rathauses zu besuchen (Mo-Fr zwischen 9-17 Uhr).
+          Öffnungszeiten des Rathauses zu besuchen.
         </p>
         <div id="timings">
           <h2 id="timings-wort">Timings</h2>
@@ -119,54 +119,62 @@ function App() {
         </div>
       </section>
       <section id="kuenstler">
-        <h2>Der Künstler</h2>
-        <p>
-          Phil Splash ist Web Developer, Senior Art Director und Künstler. 2015
-          hat er von der Presse den Titel „Der Millionen Maler“ erhalten. Seit
-          er 2010 damit begonnen hat, Portraits von Menschen in der U-Bahn zu
-          zeichnen, ist es sein Lebensziel, 1 Million Menschen zu portraitieren.
-          Er hat bereits über 300.000 Portraits gezeichnet und Aktionen für
-          Weltmarken wie Calvin Klein, Lavazza und MacCosmetics gestaltet. Über
-          seine Aktionen wurde landesweit berichtet (RTL, ZDF, Süddeutsche
-          Zeitung, BILD).
-        </p>
-        <p>
-          Link zur Künstler Website:{" "}
-          <a href="http://www.phil-splash.de/" target="_blank">
-            Phil-Splash.de
-          </a>
-        </p>
-        <p>
-          Link zur Marketing Website des Künstlers:{" "}
-          <a href="http://www.phil-splash.de/" target="_blank">
-            Millionpainter.de
-          </a>
-        </p>
+        <div id="kuenstler-left-container">
+          <h2>Der Künstler</h2>
+          <p>
+            Phil Splash ist Künstler, Web Developer und Senior Art Director.
+            2015 hat er von der Presse den Titel „Der Millionen Maler“ erhalten.
+            Seit er 2010 damit begonnen hat, Portraits von Menschen in der
+            U-Bahn zu zeichnen, ist es sein Lebensziel, 1 Million Menschen zu
+            portraitieren. Er hat bereits über 300.000 Portraits gezeichnet und
+            Aktionen für Weltmarken wie Calvin Klein, Lavazza, MacCosmetics und
+            Siemens gestaltet. Über seine Aktionen wurde landesweit berichtet
+            (RTL, ZDF, Süddeutsche Zeitung, BILD).
+          </p>
+          <p>
+            Link zur Künstler Website:{" "}
+            <a href="http://www.phil-splash.de/" target="_blank">
+              Phil-Splash.de
+            </a>
+          </p>
+          <p>
+            Link zur Marketing Website des Künstlers:{" "}
+            <a href="http://www.phil-splash.de/" target="_blank">
+              Millionpainter.de
+            </a>
+          </p>
 
-        <p>
-          Link zum YouTube Channel des Künstlers:{" "}
-          <a
-            href="https://www.youtube.com/@Theartistphil/videos"
-            target="_blank"
-          >
-            YouTube Millionpainter
-          </a>
-        </p>
-        <p>
-          Link zum Instagram Profil des Künstlers:{" "}
-          <a
-            href="https://www.instagram.com/the_million_painter/"
-            target="_blank"
-          >
-            Instagram Millionpainter
-          </a>
-        </p>
-        <p>
-          Link zum Facebook Profil des Künstlers:{" "}
-          <a href="https://www.facebook.com/philsplash/" target="_blank">
-            Facebook Millionpainter
-          </a>
-        </p>
+          <p>
+            Link zum YouTube Channel des Künstlers:{" "}
+            <a
+              href="https://www.youtube.com/@Theartistphil/videos"
+              target="_blank"
+            >
+              YouTube Millionpainter
+            </a>
+          </p>
+          <p>
+            Link zum Instagram Profil des Künstlers:{" "}
+            <a
+              href="https://www.instagram.com/the_million_painter/"
+              target="_blank"
+            >
+              Instagram Millionpainter
+            </a>
+          </p>
+          <p>
+            Link zum Facebook Profil des Künstlers:{" "}
+            <a href="https://www.facebook.com/philsplash/" target="_blank">
+              Facebook Millionpainter
+            </a>
+          </p>
+        </div>
+        <div id="kuenstler-right-container">
+          <img
+            src="/kuenstler_millionpainter.png"
+            alt="Image artist Phil Splash | Millionpainter"
+          />
+        </div>
       </section>
       <section id="impressionen">
         <div className="impressionen-text">
