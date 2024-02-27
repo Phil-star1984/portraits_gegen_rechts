@@ -261,6 +261,10 @@ h2 {
   border-radius: 10px;
 }
 
+#timings:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 #timings-wort {
   color: black;
 }
