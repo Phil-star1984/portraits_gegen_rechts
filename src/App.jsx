@@ -138,12 +138,11 @@ function App() {
             </a>
           </p>
           <p>
-            Link zur Marketing Website des Künstlers:{" "}
+            Link zur Marketing Angeboten des Künstlers:{" "}
             <a href="http://www.phil-splash.de/" target="_blank">
               Millionpainter.de
             </a>
           </p>
-
           <p>
             Link zum YouTube Channel des Künstlers:{" "}
             <a
@@ -168,6 +167,12 @@ function App() {
               Facebook Millionpainter
             </a>
           </p>
+          <p>
+            Link zum Kinderbuch das er mit seiner Frau entwickelt hat:{" "}
+            <a href="http://sini-blauwal.de/" target="_blank">
+              Kinderbuch "Sini und die Reise zum Blauwal"
+            </a>
+          </p>
         </div>
         <div id="kuenstler-right-container">
           <img
@@ -176,6 +181,7 @@ function App() {
           />
         </div>
       </section>
+      
       <section id="impressionen">
         <div className="impressionen-text">
           <h1>Impressionen</h1>
@@ -224,6 +230,9 @@ function App() {
             />
           </figure>
         </section>
+        <section id="ausstellung-visual">
+        <div id="ausstellung-container">{/* <h1>PHIL SKETCHING</h1> */}</div>
+      </section>
       </section>
       <section id="hinweis">
         <h2>Hinweis</h2>

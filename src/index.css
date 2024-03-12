@@ -298,6 +298,22 @@ h2 {
   min-width: 250px;
 }
 
+#ausstellung-container {
+  height: 650px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(255, 0, 255); */
+  background-image: url("/Millionpainter_GegenRechts_AusstellungsVisual_03.jpg"); /* The image used */
+  background-position: center; /* Adjust the horizontal position */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 20%;
+}
+
+
+
 #impressionen {
   background-color: red;
 }
@@ -463,6 +479,8 @@ footer {
   #hinweis {
     padding: 40px 10%;
   }
+
+  
 
   #impressum {
     padding: 40px 10%;
