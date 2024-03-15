@@ -138,6 +138,15 @@ function App() {
             </a>
           </p>
           <p>
+            Link zum Main Post Artikel:{" "}
+            <a
+              href="https://www.mainpost.de/regional/wuerzburg/wuerzburger-kuenstler-zeichnet-portraets-gegen-hass-der-rechtsruck-in-der-gesellschaft-geht-mir-ziemlich-auf-den-keks-art-11420066"
+              target="_blank"
+            >
+              Main-Post
+            </a>
+          </p>
+          <p>
             Link zur Marketing Angeboten des Künstlers:{" "}
             <a href="http://www.phil-splash.de/" target="_blank">
               Millionpainter.de
@@ -181,7 +190,7 @@ function App() {
           />
         </div>
       </section>
-      
+
       <section id="impressionen">
         <div className="impressionen-text">
           <h1>Impressionen</h1>
@@ -231,8 +240,8 @@ function App() {
           </figure>
         </section>
         <section id="ausstellung-visual">
-        <div id="ausstellung-container">{/* <h1>PHIL SKETCHING</h1> */}</div>
-      </section>
+          <div id="ausstellung-container">{/* <h1>PHIL SKETCHING</h1> */}</div>
+        </section>
       </section>
       <section id="hinweis">
         <h2>Hinweis</h2>
